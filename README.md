@@ -1711,15 +1711,15 @@ $this->assertEqual($expected->getTimestamp(), $actual->getTimestamp(), '', 2);
 
 ## 9. IDE
 
-Для разработки php проектов РЕКОМЕНДУЕТСЯ использовать [PhpStorm](https://www.jetbrains.com/phpstorm/).
+Для разработки php проектов МОЖНО использовать [PhpStorm](https://www.jetbrains.com/phpstorm/).
 
 ### 9.1. Inspections и Code Style
 
-Настройки инспекций РЕКОМЕНДУЕТСЯ [импортировать](https://www.jetbrains.com/help/phpstorm/customizing-profiles.html) из
+При использовании PhpStorm настройки инспекций РЕКОМЕНДУЕТСЯ [импортировать](https://www.jetbrains.com/help/phpstorm/customizing-profiles.html) из
 `phpstorm/php-conventions-inspections.xml`. Данные инспекции используют
 [PHP_CodeSniffer](https://www.jetbrains.com/help/phpstorm/using-php-code-sniffer.html).
 
-Настройки код стайла РЕКОМЕНДУЕТСЯ [импортировать](https://www.jetbrains.com/help/phpstorm/configuring-code-style.html)
+При использовании PhpStorm настройки код стайла РЕКОМЕНДУЕТСЯ [импортировать](https://www.jetbrains.com/help/phpstorm/configuring-code-style.html)
 из `phpstorm/php-conventions-code-style.xml`.
 
 **ВАЖНО** Inspections и Code Style содержат настройки только для PHP, по этой причине СТОИТ выполнять импорт
